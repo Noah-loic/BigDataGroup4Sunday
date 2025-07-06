@@ -26,7 +26,7 @@ Write a Python function that:
 ### 🧾 Solution Code
 
 ```python
-<pre> ```
+
 def check_palindrome():
     text = input("Enter a string: ")
     normalized = text.replace(" ", "").lower()
@@ -36,4 +36,4 @@ def check_palindrome():
         print("No, it is not a palindrome.")
 
 check_palindrome()
-    ``` </pre>
+```
