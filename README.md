@@ -1,8 +1,8 @@
-# BigDataGroup4Sunday
+# BigDataGroup4 quizI
 Assignment Summary
 This assignment required implementing string operations in Python using functions, user input, and collections.
 
-We solved:
+We solved: Question2 and Question3
 
 Palindrome Checker
 
@@ -21,6 +21,7 @@ Otherwise, print:
 No, it is not a palindrome.
 
 Codes:
+<pre> ```
 def check_palindrome():
     text = input("Enter a string: ")
     normalized = text.replace(" ", "").lower()
@@ -30,3 +31,4 @@ def check_palindrome():
         print("No, it is not a palindrome.")
 
 check_palindrome()
+    ``` </pre>
