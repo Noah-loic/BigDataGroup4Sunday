@@ -1,26 +1,31 @@
-# BigDataGroup4 quizI
-Assignment Summary
-This assignment required implementing string operations in Python using functions, user input, and collections.
+# 🧠 Introduction to Big Data Analytics — Quiz 1 Solutions
+  
+**Instructor**: Eric Maniraguha   
+**Group**: 4  
+ 
 
-We solved: Question2 and Question3
+This repository contains well-documented Python solutions to selected questions from **Quiz 1** in the course *Introduction to Big Data Analytics*. Below are solutions to:
 
-Palindrome Checker
+- ✅ Question II: Palindrome Checker
+- ✅ Question III: Iterating Over Two Text Inputs
 
-Text Combination & Character Iteration
+---
 
-– Palindrome Checker
-Problem Statement
-Write a function that asks the user to enter a string.
+## ✅ Question II: Check Palindrome
 
-If the string is a palindrome (reads the same forward and backward), print:
+### ✍️ Problem Statement
 
-Yes, it is a palindrome.
+Write a Python function that:
 
-Otherwise, print:
+1. Asks the user to input a **string**.
+2. Checks if the string is a **palindrome** (reads the same forwards and backwards).
+3. Prints the result:  
+   - `"Yes, it is a palindrome"`  
+   - `"No, it is not a palindrome"`
 
-No, it is not a palindrome.
+### 🧾 Solution Code
 
-Codes:
+```python
 <pre> ```
 def check_palindrome():
     text = input("Enter a string: ")
