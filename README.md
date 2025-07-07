@@ -96,3 +96,87 @@ No, it is not a palindrome.
 Enter a string: A man a plan a canal Panama
 Yes, it is a palindrome.
 ```
+## 📌 Problem 3 – Combine and Process Two Texts
+
+### 🔹 Problem Statement
+
+1. Ask the user to enter **two separate texts**
+2. Combine the two texts into one
+3. Iterate over each character in the combined text
+4. Return the characters as a `list`
+5. Display:
+
+> Thank you for using my application.  
+> After processing the input.
+
+### ✅ Code
+
+```python
+def merged_process():
+    text1 = input("Enter first text: ")
+    text2 = input("Enter second text: ")
+    combined_text = text1 + text2
+    characters = list(combined_text)
+    
+    print("Characters in the combined text:")
+    print(characters)
+    
+    print("Thank you for using my application.")
+    print("After processing the input.")
+    
+    return characters
+
+# Call the function
+merged_process()
+
+## Code Explanation
+
+The script consists of a single function, `merged_process()`, which performs the following steps:
+
+1. **User Input**:
+   - The function uses `input("Enter first text: ")` and `input("Enter second text: ")` to prompt the user for two strings.
+   - The first input is stored in the variable `text1`, and the second in `text2`.
+
+2. **String Combination**:
+   - The inputs are combined using `text1 + text2`, which joins the two strings end to end.
+   - The result is stored in the variable `combined_text`.
+   - For example, if the user enters `"Hello"` and `"World"`, the combined result will be `"HelloWorld"`.
+
+3. **Character Iteration**:
+   - The combined string is passed to the `list()` function using `characters = list(combined_text)`.
+   - This creates a list where each element is a single character from the combined text.
+   - Example:
+     - Combined text: `"HelloWorld"`
+     - Characters list: `['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']`
+
+4. **Output**:
+   - The function prints:
+     - `"Characters in the combined text:"` — a label for clarity.
+     - The list of characters — which shows the result of the iteration.
+     - `"Thank you for using my application."` — a user-friendly message.
+     - `"After processing the input."` — a closing message to indicate the end of the operation.
+
+5. **Return Value**:
+   - The function uses `return characters` to return the list of characters. This makes the function reusable in other parts of a program, though it’s not required by the user.
+
+6. **Function Execution**:
+   - The function is executed with `merged_process()` immediately after its definition, allowing the user to interact with the program.
+
+## Example Usage
+
+```python
+# Example input:
+Enter first text: Hello
+Enter second text: World
+
+# Output:
+Characters in the combined text:
+['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']
+Thank you for using my application.
+After processing the input.
+
+## ✅ Final Notes
+
+We successfully implemented the required functions using clean and efficient Python syntax.  
+
+
