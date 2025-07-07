@@ -1,4 +1,4 @@
-# 📘 Group Assignment: String Handling in Python
+#  Group Assignment: String Handling in Python
 
 ## Course Information
 
@@ -29,7 +29,7 @@
 
 ---
 
-## 📌 Problem 2 – Palindrome Checker
+##  Problem 2 – Palindrome Checker
 
 ### Problem Statement
 
@@ -96,9 +96,9 @@ No, it is not a palindrome.
 Enter a string: A man a plan a canal Panama
 Yes, it is a palindrome.
 ```
-## 📌 Problem 3 – Combine and Process Two Texts
+##  Problem 3 – Combine and Process Two Texts
 
-### 🔹 Problem Statement
+###  Problem Statement
 
 1. Ask the user to enter **two separate texts**
 2. Combine the two texts into one
@@ -109,7 +109,7 @@ Yes, it is a palindrome.
 > Thank you for using my application.  
 > After processing the input.
 
-### ✅ Code
+###  Code
 
 ```python
 def merged_process():
@@ -176,7 +176,7 @@ Thank you for using my application.
 After processing the input.
 ```
 
-## ✅ Final Notes
+##  Final Notes
 
 We successfully implemented the required functions using clean and efficient Python syntax.  
 
