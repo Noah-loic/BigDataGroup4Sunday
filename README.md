@@ -128,7 +128,7 @@ def merged_process():
 
 # Call the function
 merged_process()
-
+```
 ## Code Explanation
 
 The script consists of a single function, `merged_process()`, which performs the following steps:
