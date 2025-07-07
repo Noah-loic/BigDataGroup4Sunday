@@ -51,3 +51,11 @@ def check_palindrome():
         print("No, it is not a palindrome.")
 
 check_palindrome()
+```
+## Code Explanation
+
+The script consists pf a single function, 'check_palindrome()', which performs the following steps:
+
+1. **User Input**
+   -The function uses 'input("Enter a String: ")' to ask the user to a enter a string
+   -The entered string is stored in the variable 'text'
