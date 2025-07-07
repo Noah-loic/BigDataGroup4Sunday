@@ -174,6 +174,7 @@ Characters in the combined text:
 ['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']
 Thank you for using my application.
 After processing the input.
+```
 
 ## ✅ Final Notes
 
