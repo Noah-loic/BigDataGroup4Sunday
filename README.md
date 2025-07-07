@@ -54,8 +54,23 @@ check_palindrome()
 ```
 ## Code Explanation
 
-The script consists pf a single function, 'check_palindrome()', which performs the following steps:
+The script consists of a single function, `check_palindrome()`, which performs the following steps:
 
-1. **User Input**
-   -The function uses 'input("Enter a String: ")' to ask the user to a enter a string
-   -The entered string is stored in the variable 'text'
+1. **User Input**:
+   - The function uses `input("Enter a string: ")` to ask the user to enter a string.
+   - The entered string is stored in the variable `text`.
+
+2. **String Normalization**:
+   - The input string is processed using `text.replace(" ", "").lower()`:
+     - `replace(" ", "")` removes all spaces from the string to ensure phrases like "A man a plan" are treated as a single continuous string ("Amanaplan").
+     - `lower()` converts the string to lowercase to make the comparison case-insensitive (e.g., "Racecar" becomes "racecar").
+   - The normalized string is stored in the variable `normalized`.
+
+3. **Palidrome CHeck**
+  - The function checkks if the normalized string is equal to its reverse using `normalized == normalized[::-1]`:
+    - The slice `[::1]` creates a reversed copy of the string by going through it backward.
+    - If the normalized string equals its reverse, it is palindrome.
+- For ecample, for the input "Racecar"
+ - Normalized: "racecar"
+ - Reverse: "racecar"
+ - Since they match, it is a palindrome.   
