@@ -73,4 +73,8 @@ The script consists of a single function, `check_palindrome()`, which performs t
 - For ecample, for the input "Racecar"
  - Normalized: "racecar"
  - Reverse: "racecar"
- - Since they match, it is a palindrome.   
+ - Since they match, it is a palindrome.
+
+4. **Output**:
+   - If the condition `normalized == normalized[::-1]` is `True`, the function prints: `"Yes, it is a palindrome."`
+   - Otherwise, it prints: `"No, it is not a palindrome."
