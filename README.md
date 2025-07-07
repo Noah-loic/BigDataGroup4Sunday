@@ -79,23 +79,8 @@ The script consists of a single function, `check_palindrome()`, which performs t
    - If the condition `normalized == normalized[::-1]` is `True`, the function prints: `"Yes, it is a palindrome."`
    - Otherwise, it prints: `"No, it is not a palindrome."
 
-5. **Function Execution**:
-   - The function is called immediately after its definition with `check_palindrome()`, prompting the user to enter a string and running the palindrome check.
-## Example Usage
+![](./images/parindrome.png)
 
-```python
-# Example 1: Palindrome input
-Enter a string: Racecar
-Yes, it is a palindrome.
-
-# Example 2: Non-palindrome input
-Enter a string: Hello
-No, it is not a palindrome.
-
-# Example 3: Phrase with spaces
-Enter a string: A man a plan a canal Panama
-Yes, it is a palindrome.
-```
 ##  Problem 3 – Combine and Process Two Texts
 
 ###  Problem Statement
@@ -164,17 +149,8 @@ The script consists of a single function, `merged_process()`, which performs the
 
 ## Example Usage
 
-```python
-# Example input:
-Enter first text: Hello
-Enter second text: World
+![](./images/textCombination.png)
 
-# Output:
-Characters in the combined text:
-['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']
-Thank you for using my application.
-After processing the input.
-```
 
 ##  Final Notes
 
