@@ -81,3 +81,18 @@ The script consists of a single function, `check_palindrome()`, which performs t
 
 5. **Function Execution**:
    - The function is called immediately after its definition with `check_palindrome()`, prompting the user to enter a string and running the palindrome check.
+## Example Usage
+
+```python
+# Example 1: Palindrome input
+Enter a string: Racecar
+Yes, it is a palindrome.
+
+# Example 2: Non-palindrome input
+Enter a string: Hello
+No, it is not a palindrome.
+
+# Example 3: Phrase with spaces
+Enter a string: A man a plan a canal Panama
+Yes, it is a palindrome.
+```
