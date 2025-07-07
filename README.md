@@ -1,32 +1,47 @@
-# 🧠 Introduction to Big Data Analytics — Quiz 1 Solutions
-  
-**Instructor**: Eric Maniraguha   
-**Group**: 4  
- 
+# 📘 Group Assignment: String Handling in Python
 
-This repository contains well-documented Python solutions to selected questions from **Quiz 1** in the course *Introduction to Big Data Analytics*. Below are solutions to:
+## Course Information
 
-- ✅ Question II: Palindrome Checker
-- ✅ Question III: Iterating Over Two Text Inputs
+**Course**: _Intro to Big Data Analytics_  
+**Assignment**: **String Handling (Problem 2 & 3)**  
+**Group Name**: _[Group 4]_  
+**Date**: _[6th/07/2025]_
+
+## Group Members
+
+1. **[IRADUKUNDA Immaculee: 27378]**
+2. **[KIZUNGU SHYAKA Noah Loic: 25919]**
+3. **[RUKESHA Prince: 26474]**
+4. **[ISHIMWE Prince Cuthbert: 27089]**
+5. **[MURENZI Charles: 26680]**
+36. **[Nadjilem Nayam Oscar: 26518]**
 
 ---
 
-## ✅ Question II: Check Palindrome
+## Assignment Summary
 
-### ✍️ Problem Statement
+> This assignment required implementing string operations in Python using functions, user input, and collections.  
+>
+>> We solved:
+>> 
+>> 1. **Palindrome Checker**  
+>> 2. **Text Combination & Character Iteration**
 
-Write a Python function that:
+---
 
-1. Asks the user to input a **string**.
-2. Checks if the string is a **palindrome** (reads the same forwards and backwards).
-3. Prints the result:  
-   - `"Yes, it is a palindrome"`  
-   - `"No, it is not a palindrome"`
+## 📌 Problem 2 – Palindrome Checker
 
-### 🧾 Solution Code
+### Problem Statement
+
+* Write a function that asks the user to enter a string.  
+* If the string is a **palindrome** (reads the same forward and backward), print:  
+  > _Yes, it is a palindrome._  
+* Otherwise, print:  
+  > _No, it is not a palindrome._
+
+### Code
 
 ```python
-
 def check_palindrome():
     text = input("Enter a string: ")
     normalized = text.replace(" ", "").lower()
@@ -36,4 +51,3 @@ def check_palindrome():
         print("No, it is not a palindrome.")
 
 check_palindrome()
-```
