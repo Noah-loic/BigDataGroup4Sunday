@@ -78,3 +78,6 @@ The script consists of a single function, `check_palindrome()`, which performs t
 4. **Output**:
    - If the condition `normalized == normalized[::-1]` is `True`, the function prints: `"Yes, it is a palindrome."`
    - Otherwise, it prints: `"No, it is not a palindrome."
+
+5. **Function Execution**:
+   - The function is called immediately after its definition with `check_palindrome()`, prompting the user to enter a string and running the palindrome check.
